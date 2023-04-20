@@ -56,7 +56,7 @@ let isStoreOpen = false
 
 console.log(isStoreOpen && price <= cash ? "give receipt" : "do not give receipt") */
 
-let count = 1
+/* let count = 1
 
 while (count <= 10) {
     console.log(count)
@@ -65,4 +65,37 @@ while (count <= 10) {
 
 for (let i = 0; i <= 3; i++) {
     console.log(i)
+} */
+
+/* for (let i = 1; i <= 20; i++) {
+    
+    if (!(i % 3) && !(i % 5)) {
+    console.log("Frontend Simplified")
+    }
+    else if (!(i % 3)) {
+        console.log("Frontend")
+    }
+    else if (!(i % 5)) {
+        console.log("Simplified")
+    }
+    else {
+        console.log(i)
+    }
 }
+
+// Soluzione alternativa
+
+for (let i = 1; i <= 20; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log(`${i} -> Frontend Simplified`)
+    }
+    else if (i % 3 === 0) {
+        console.log(`${i} -> Frontend`)
+    }
+    else if (i % 5 === 0) {
+        console.log(`${i} -> Simplified`)
+    }
+    else {
+        console.log(`${i} -> ${i}`)
+    }
+} */
